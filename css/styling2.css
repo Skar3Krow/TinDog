@@ -1,0 +1,95 @@
+.top-container{background-color:#F9C0C0;
+    text-align: center;}
+.middle-container{background-color:#FAFCC2;
+                  padding: 20px;}
+.bottom-container{background-color: #B6E388;
+                  padding: 20px;}
+.profile{width: 75%;
+        margin: 100px auto;}
+.profile-photo{border-radius: 100%;}
+.gif{width: 27%;
+    border-radius: 100%;
+    float: left;
+    margin-right: 50px;
+    position: relative;
+    bottom: 20px;}
+
+.gif-one{width: 27%;
+        border-radius: 100%;
+        float: right;
+        margin-left: 50px;
+        position: relative;
+        bottom: 20px;}
+.top-cloud{position:absolute;
+        right: 340px;
+        top: 90px;}
+.bottom-cloud{position:absolute;
+            top: 400px;
+        left: 350px;}
+.mountain{margin-top: 50px;}
+.footer-link{color: #76BA99;
+            font-style: italic;}
+.first{color: #FF8787;}
+a{text-decoration: none;
+    font-family: sans-serif;
+    position: relative;}
+.footer-link:hover{color: #486c47;}
+.footer-link:after{content: "";
+           position: absolute;
+           left: 0;
+           width: 0;
+           height: 3px;
+           background: #486c47;
+           transition: .3s;
+           bottom: 0;}
+.footer-link:hover:after{width: 100%;}
+.btn{color: white;
+    padding: 16px 40px;
+    letter-spacing: 1px;
+    background-color: #FF8787;
+    border: 2px solid #FF8787;
+    display: inline-block;
+    border-radius: 500px;
+    transition: 0.4s all ease-in-out;}
+.btn:hover{background: transparent;
+            color: #FF8787;}
+.skill-row{margin: 200px auto;
+            width: 65%;
+            text-align: left;}
+.last-word{color: #EAF6F6;
+            font-size: medium;}
+.intro{width: 75%;
+        padding-left: 130px;}
+.middle-skill{margin-left: 20px;}
+.middle-head{margin-left: 20px;}
+.contact-body{position: relative;}
+.contact-img1{position: absolute;
+              left: 30px;
+            height: 300px;
+            bottom: 70px;}
+body{background-color:#F9C0C0;
+    margin: 0px;
+    padding-top: 70px;
+    font-family: 'Merriweather',sans-serif;
+    text-align: center;}
+h1{font-family: 'Sacramento',sans-serif;
+   font-size: 5.625em;
+    margin-bottom: 0px;
+    color: #FF8787;
+    margin-top: 90px;}
+h2{color: #FF8787;
+    font-size: xx-large;}
+ul li{display: inline-block;
+     padding: 0px 50px;}
+h3{font-size: x-large;
+    color:#FF8787;}
+
+p{font-size: 1.4em;}
+hr{background-color:#FAFCC2;
+    border-style:none;
+    border-top-style:dotted;
+    border-width: 7px;
+    border-color:#FF577F;
+    height: 7px;
+    margin-top: 0px;
+    width:5%;}
